@@ -1,0 +1,7 @@
+my_custom.view:
+  path: '/registration/{placeholder}'
+  defaults:
+    _controller: '\Drupal\my_custom\Controller\Foobar::content'
+    _title: 'Oh yeah foobar'
+  requirements:
+    _permission: 'access content'
